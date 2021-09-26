@@ -14,7 +14,7 @@ const images = [
 ];
 
 const markup = images.map(item => {
-  return `<li> <img src = "${item.url}"  alt= "${item.alt}"> </li>;`;
+  return `<li> <img src = "${item.url}"  alt= "${item.alt}"> </li>`;
 });
 const summMarkup = markup.join(' ');
 
